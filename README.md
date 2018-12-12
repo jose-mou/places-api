@@ -13,3 +13,9 @@ popular venues near that location, using the Foursquare API and returning the re
 
 ## Run app
 ```java -jar target/places-1.0.0.jar```
+
+## Considerations
+
+- Name identify unequivocally a place resource. If that is not the case the endpoint should be /api/v1/places?name=XXX
+- Place model is stored in a List, it could be a Map or a DB.
+
